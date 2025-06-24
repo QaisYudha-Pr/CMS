@@ -1,9 +1,10 @@
-<section class="py-8 px-4 bg-gray-900 min-h-screen text-white ">
+<hr class="dark:invisible">
+<section class="py-8 px-4 bg-white dark:bg-gray-900 min-h-screen text-white ">
   <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
     {{-- Dummy Card --}}
     @for ($i = 0; $i < 6; $i++)
-    <article class="rounded overflow-hidden shadow-lg bg-gray-700 dark:bg-white transition hover:scale-105 duration-200">
+    <article class="rounded overflow-hidden shadow-lg bg-gray-800 dark:bg-white transition hover:scale-105 duration-200">
       <img src="{{ asset('169.jpg') }}"
            alt="Sunset in the mountains"
            class="w-full aspect-video object-cover rounded-t">
